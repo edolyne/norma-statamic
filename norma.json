@@ -1,0 +1,26 @@
+{
+  "name": "NormaStatamic",
+  "tasks": {
+    "markup": {
+      "endpoint": "NewSpring/norma-markup",
+      "src": "_source/kindling/markup/**/*",
+      "dest": "_themes/kindling",
+      "ext": ["html", "yaml"]
+    },
+    "sass": {
+      "endpoint": "NewSpring/norma-sass",
+      "src": "_source/kindling/stylesheets/**/*",
+      "dest": "_themes/kindling/css"
+    },
+    "javascript": {
+      "endpoint": "NewSpring/norma-javascript",
+      "src": "_source/kindling/scripts/**/*",
+      "dest": "_themes/kindling/js"
+    },
+    "copy": {
+      "endpoint": "NewSpring/norma-copy",
+      "src": "_source/kindling/assets/**/*",
+      "dest": "_themes/kindling"
+    }
+  }
+}
